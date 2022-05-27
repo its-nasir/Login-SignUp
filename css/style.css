@@ -1,0 +1,88 @@
+.header1 {
+  background-color: blue;
+}
+.eyes {
+  /* position: relative; */
+  position: absolute;
+  top: -2rem;
+  left: 11rem;
+  cursor: pointer;
+}
+.for-eye{
+  position: relative;
+}
+
+/* second register page  */
+#display_image {
+  width: 7rem;
+  height: 7rem;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid rgb(245, 241, 241);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.photo {
+  margin-bottom: 6rem;
+  margin-left: 11rem;
+}
+
+/* image part over  */
+.register{
+  background-color: white;
+  
+}
+.card-rgs{
+  background-color:rgb(100, 80, 80);
+  margin-top: 4rem;
+  border-radius: .8rem;
+  box-shadow: 0px 10px 90px #00000020;
+
+}
+
+
+.rsg {
+  display: flex;
+  justify-content: center;
+  width: 22rem;
+  margin-top: 3rem;
+  margin-left: 36rem;
+  padding: 24rem;
+  padding-top: 26rem;
+  background-color: rgb(192, 192, 202);
+}
+.dob {
+  padding: 2rem;
+}
+/* .dob-txt{
+  position: absolute;
+  top: 32.5rem;
+} */
+
+.date {
+  width: 24rem;
+  padding: .2rem;
+  cursor: pointer;
+}
+.nxt {
+  color: white;
+  text-decoration: none;
+}
+#display_image{
+  background-image: url('/img/placeholder.png');
+  cursor: pointer;
+}
+
+.cur{
+  cursor: pointer;
+}
+.txt1{
+  color:  white;
+}
+#login{
+  width: 9rem;
+}
+.hdn{
+  display: none;
+}
+
